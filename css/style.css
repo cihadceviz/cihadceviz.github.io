@@ -1,0 +1,748 @@
+body {
+    width: 100%;
+    font-family: 'Karla';
+    background: #FAFAFC;
+    margin: 0px;
+}
+
+.header {
+    position: relative;
+    width: 90vw;
+    height: 75vh;
+    background: #002554;
+    border-radius: 0px 0px 100px 0px;
+}
+
+.headerPeople{
+    position: absolute;
+    right: -100px;
+    bottom: -200px;
+    transform: scale(0.9);
+}
+
+.logo {
+    position: absolute;
+    width: 152px;
+    height: 110px;
+    left: 10vw;
+    top: 10vh;
+}
+
+.hireButton {
+    padding: 25px;
+    width: 40vw;
+    font-weight: 500;
+    font-size: 20px;
+    background: #c29b40;
+    border-radius: 40px;
+    margin-top: 50px;
+}
+
+.textHeader {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 58px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.headerTextView{
+    padding-left: 10vw;
+    padding-top: 200px;
+}
+
+.ellipse18 {
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    left: 473px;
+    top: 1249px;
+    background: url(/img/Ellipse3.png);
+}
+
+.manager {
+    position: absolute;
+    width: 48px;
+    height: 14px;
+    left: 479px;
+    top: 1220px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 116.4%;
+    /* identical to box height, or 14px */
+}
+
+.rectangle17 {
+    position: absolute;
+    width: 94px;
+    height: 32px;
+    left: 457px;
+    top: 1214px;
+
+    background: #FFFFFF;
+    box-shadow: 5px 10px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+
+.canHelpYou {
+    margin-top: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.textHelpView {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.helpText {
+    width: 40vw;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 116.4%;
+    text-align: justify;
+    color: #002554;
+}
+.cricle{
+    zoom: 1;
+}
+.textHelp {
+    width: 40vw;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 166.4%;
+    text-align: justify;
+    color: #6A6C6D;
+}
+
+.image15 {
+    position: absolute;
+    width: 44px;
+    height: 41px;
+    left: 848px;
+    top: 1083px;
+    background: url(/img/findajob.svg);
+    background-color: black;
+}
+
+.footer {
+    position: relative;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    background: #C29B40;
+    background-image: url(/img/worldMap.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+.footerElements {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.copyright {
+    
+}
+
+.socialMedia {
+}
+
+.facebookLogo {
+    background: #337FFF;
+    border-radius: 20px;
+    height: 37px;
+    width: 37px;
+    align-items: center;
+    text-align: center;
+}
+
+.instagramLogo {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    width: 37px;
+    height: 37px;
+    background: linear-gradient(315deg, #FBE18A 0.96%, #FCBB45 21.96%, #F75274 38.96%, #D53692 52.96%, #8F39CE 74.96%, #5B4FE9 100.96%);
+    border-radius: 20px;
+    margin-left: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.twitterLogo {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    height: 38px;
+    width: 38px;
+    left: 0px;
+    top: 0px;
+    border-radius: 20px;
+    background: #33CCFF;
+    border-radius: 20px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.youtubeLogo {
+    height: 38px;
+    width: 38px;
+    left: 0px;
+    top: 0px;
+    border-radius: 20px;
+    margin-left: 150px;
+    position: absolute;
+    background: #FF0000;
+    border-radius: 20px;
+}
+
+.contactText {
+
+}
+
+.categories {
+    margin-right: 150px;
+    left: 0px;
+    bottom: 0px;
+}
+
+.topFooter {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    top: -10vh;
+    left: 10vw;
+    right: 10vw;
+    color: white;
+    background: #002554;
+    border-radius: 30px;
+}
+
+.footerTopText {
+    font-weight: 700;
+    color: white;
+    margin-top: 30px;
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-family: 'Karla';
+    font-style: normal;
+}
+
+.footerTopButton {
+    color: white;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 101.4%;
+    background: #C29B40;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 15px;
+    position: absolute;
+    bottom: 15px;
+    left: 35vw;
+    right: 35vw;
+    text-align: center;
+}
+
+.womenView{
+    padding-left: 10vw;
+    padding-right: 10vw;
+    color: white;
+    margin-bottom: 211px;
+    font-family: Karla;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    color: black;
+    margin-top: 100px;
+overflow: hidden;
+}
+
+.whyWorkBlueJay {
+    color: white;
+    margin-bottom: 211px;
+    font-family: Karla;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgStyleWhyWork {
+    transform: scale(.9);
+}
+
+.card {
+    width: 35vw;
+    border-radius: 10px;
+    background-color: black;
+    background:#592B82;
+    margin-top: 35px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.GoldenText{
+    color: #C29B40;
+}
+
+.cardInside {
+    width: 19px;
+    height: 168px;
+    display: inline-block;
+    position: absolute;
+    background: #FFFFFF;
+    /* Shadow */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.cardWrap {
+}
+
+.textCard {
+    margin-left: 10px;
+    font-size: 14px;
+    color: white;
+}
+
+.trustedCompanies {
+    height: 449px;
+    width: 1300px;
+    bottom: 1345px;
+    left: 200px;
+    text-align: center;
+    align-items: center;
+}
+
+.companiesCard {
+    width: 289px;
+    height: 152px;
+    display: inline-block;
+    margin: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+}
+
+.companiesCardWrapper {
+    display: inline-block;
+    align-items: center;
+
+    border-spacing: 20px;
+}
+
+.latestJobs {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+
+
+.jobCard {
+    position: relative;
+    display: inline-block;
+    width: 290px;
+    height: 326px;
+    margin-left: 50px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.05);
+
+}
+
+.applyButton {
+    border: none;
+    position: absolute;
+    width: 116px;
+    height: 24px;
+    bottom: 50px;
+    background: #C29B40;
+    border-radius: 10px;
+    margin-left: 30%;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.locateArea {
+    box-sizing: border-box;
+    width: 259px;
+    height: 30px;
+    border: 1px solid #002349;
+    border-radius: 10px;
+    margin: 3%;
+    text-align: center;
+}
+
+.dateArea {
+    box-sizing: border-box;
+    width: 259px;
+    height: 41px;
+    border: 1px solid #C29B40;
+    color: #C29B40;
+    border-radius: 10px;
+    margin-left: 5%;
+}
+
+.companyArea {
+    display: block;
+    text-align: center;
+}
+
+.textAreaCompany {
+    display: block;
+    text-align: center;
+}
+
+.blueBird{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+
+.sectionCard {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    background-image: url(/img/worldMap.svg);
+    background-repeat: no-repeat;
+}
+
+
+.man {
+    transform: scale(3);
+}
+
+.behindPhoto {
+    position: absolute;
+    top: -59px;
+    left: 781px;
+}
+
+.underHelpText {
+    position: absolute;
+    top: 271px;
+    right: 458px;
+    display: flex;
+    flex-direction: column;
+}
+
+.photoText {
+    width: 40vw;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 121.4%;
+    color: #C29B40;
+    text-align: center;
+}
+
+.jobsHeader {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 116.4%;
+    margin-bottom: 50px;
+}
+
+.fourgridview{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.CardView{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.biggridview{
+}
+.gridText{
+    font-family: 'Karla';
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0em;
+
+}
+.gridview{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 250px;
+    margin-bottom: 30px;
+}
+.gridimg{
+    margin-right: 10px;
+}
+/* @media only screen and (max-width: 390px) {
+    body{
+        zoom: 25%;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    body{
+        zoom: 25%;
+    }
+}  */
+@media only screen and (max-width: 1000px) {
+    .headerPeople{
+        display: none;
+    }
+
+    .hireButton {
+        width: auto;
+    }
+
+    .canHelpYou {
+        margin-top: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cricle{
+        zoom: .6;
+        margin-bottom: 50px;
+    }
+    .helpText {
+        width: 90vw;
+        font-family: 'Karla';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 116.4%;
+        text-align: center;
+        color: #002554;
+    }
+    .textHelp {
+        width: 85vw;
+        font-family: 'Karla';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 166.4%;
+        text-align: justify;
+        color: #6A6C6D;
+    }
+
+    .blueBird{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        overflow: hidden;
+    }
+
+    .sectionCard {
+        width: auto;
+        height: 1000px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: black;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        background-image: none;
+        background-repeat: no-repeat;
+    }
+
+    .man {
+        transform: scale(2.5);
+    }
+
+    .photoText {
+        width: 80vw;
+        font-family: 'Karla';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 34px;
+        line-height: 121.4%;
+        color: #C29B40;
+        text-align: center;
+    }
+
+    .latestJobs {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .jobCard {
+        position: relative;
+        display: inline-block;
+        width: 290px;
+        height: 326px;
+        margin-left: 0;
+        margin-bottom: 50px;
+        background: #FFFFFF;
+        border-radius: 20px;
+        box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.05);
+    
+    }
+
+    .womenView{
+        padding-left: 10vw;
+        padding-right: 10vw;
+        color: white;
+        margin-bottom: 50px;
+        font-family: Karla;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 35px;
+        color: black;
+        margin-top: 100px;
+    overflow: hidden;
+    }
+
+    .whyWorkBlueJay {
+        color: white;
+        margin-bottom: 50px;
+        font-family: Karla;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 35px;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .card {
+        width: 90vw;
+        border-radius: 10px;
+        background-color: black;
+        background:#592B82;
+        margin-top: 35px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    }
+    .imgStyleWhyWork {
+        transform: scale(.5);
+    }
+
+    .footer {
+        position: relative;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 0px;
+        background: #C29B40;
+        background-image: url(/img/worldMap.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .topFooter {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        height: 20vh;
+        top: -10vh;
+        left: 10vw;
+        right: 10vw;
+        color: white;
+        background: #002554;
+        border-radius: 30px;
+    }
+
+    .footerTopText {
+        font-weight: 700;
+        color: white;
+        margin-top: 30px;
+        font-size: 20px;
+        margin-bottom: 10px;
+        font-family: 'Karla';
+        font-style: normal;
+        text-align: center;
+    }
+
+    .footerTopButton {
+        color: white;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 101.4%;
+        background: #C29B40;
+        border-radius: 10px;
+        text-decoration: none;
+        padding: 15px;
+        position: absolute;
+        bottom: 15px;
+        left: 20vw;
+        right: 20vw;
+        text-align: center;
+    }
+
+    .footerElements {
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+
+    .categories {
+        margin-right: 10px;
+        left: 0px;
+        bottom: 0px;
+    }
+
+    .mediaView{
+        align-self: flex-end;
+    }
+
+    .copyright {
+    font-size: 10px;
+    }
+
+    .fourgridview{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+}
